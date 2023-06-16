@@ -48,6 +48,10 @@ INSTALLED_APPS = [
     'rest_framework_simplejwt',
     'corsheaders',
     'djoser',
+
+    'applications.category',
+    'applications.review',
+    'applications.product',
 ]
 
 MIDDLEWARE = [
